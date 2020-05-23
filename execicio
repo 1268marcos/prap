@@ -28,7 +28,7 @@ public class Food {
  
     private String mLocation;
  
-    public Museum(@Nullable String name, String location , int score, String creationDate) {
+    public Food(@Nullable String name, String location , int score, String creationDate) {
         mName = name;
         mLocation = location ;
         mScore = score;
@@ -56,7 +56,7 @@ public class Food {
     }
  
     public void setLocation(String location) {
-        mStyle = location;
+        mLocation = location;
     }
  
     public int getScore() {
